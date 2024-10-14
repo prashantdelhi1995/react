@@ -1,17 +1,13 @@
 import React from "react"
-import ReactDOM from "react-dom"
-const heading=React.createElement("div",{id:"parent"},[React.createElement("div"
-    ,{id:"child1"},[React.createElement("h1",{},"hii am h1 tag"),
-        React.createElement("h2",{},"hi i am h2 tag tag!!")])
-        ,
-        React.createElement("div"
-            ,{id:"child2"},[React.createElement("h1",{},"hii am h1 tag"),
-                React.createElement("h2",{},"hii am h2 tag tag")])
-                ,
-                React.createElement("div"
-                    ,{id:"child3"},[React.createElement("h1",{},"hii am h1 tag"),
-                        React.createElement("h2",{},"hii am h2 tag tag")])
-])
+import ReactDOM from "react-dom/client"
+const heading=(<h1>hii my name is prashant </h1>)
+function Xyz() {return (
+    <div>
+        <h1> hii my name is prashant </h1>
+        <h2>i am just testing how things work behind the scene</h2>
+        
+        </div>
+)}
     
     const root= ReactDOM.createRoot(document.getElementById("root"));
-    root.render(heading);
+    root.render(<Xyz />);
