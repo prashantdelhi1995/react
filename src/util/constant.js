@@ -1,0 +1,2 @@
+export const logo="https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?semt=ais_hybrid"
+export const cdnUrl = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
